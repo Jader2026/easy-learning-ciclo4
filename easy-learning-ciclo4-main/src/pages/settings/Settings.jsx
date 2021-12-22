@@ -1,0 +1,33 @@
+import "./settings.css"
+
+export default function Settings() {
+    return (
+        <div className="settings">
+            <div className="settingsWrapper">
+                <div className="settingsTitle">
+                    <span className= "settingsUpdateTitle">Update Your Account</span>
+                    <span className= "settingsDeleteTitle">Delete Account</span>
+                </div>
+                <form className="settingsForm">
+                    <label>Profile Picture</label>
+                    <div className="settingsPP">
+                      <img alt="1"
+                      src="https://www.thelab.sg/wordpress/wp-content/uploads/illustration3-2000x1018-1.jpg"
+                      />  
+                      <label htmlFor="fileInput">
+                          <i className="settingsPPIcon far fa-user-circle"></i>
+                      </label>
+                      <input type="file" id="fileInput" style={{display:"none"}}/>
+                    </div>
+                    <label>Username</label>
+                    <input type="text" placeholder="Ingrese usuario"/>
+                    <label>Email</label>
+                    <input type="email" placeholder="Ingrese Email"/>
+                    <label>Password</label>
+                    <input type="password"/>
+                    <button className="settingsSubmit">Update</button>
+                </form>
+            </div>
+        </div>
+    )
+}

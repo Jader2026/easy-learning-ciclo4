@@ -1,0 +1,66 @@
+.containerestudiantes{
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    background:url(https://i.pinimg.com/originals/f5/60/14/f560148eb322a90b1d240a6124e4f251.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+table {
+    width:45%;
+    margin: auto;
+    border: 3px solid black;
+    font-size:20px;
+}
+body{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    min-height: 100vh;
+    background-size: 100%;
+}
+
+td {
+    border: 1px solid black;
+    text-align:start;
+    justify-content: center;
+    color: #000;
+    background-color: aliceblue;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+button{
+    width:50px;
+    padding:4px 8px;
+    margin-top:16px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background-color:#000;
+  }
+  
+  button:hover {
+    background-color: #0000FF;
+    color: white;
+    border-radius: 15%;
+  }
